@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehar Memorial Laboratory</title>
+</head>
+<body>
+    <header>
+        <h1>Appointment Booking Form</h1>
+        <p>Please fillout the required information to book an appointment.</p>
+    </header>
+   <form>
+    <fieldset>
+    <legend> Personal information</legend>
+<label for="name">Patient Name:</label>
+<input id="name" required name="name" placeholder="Enter Patient name here">
+   
+<label for="email">Patient Name:</label>
+<input id="email" required name="email" placeholder="Enter email here">
+
+<label for="contact">Phone Number:</label>
+<input id="contact" required name="number" placeholder="Enter phone number here">
+
+<label for="age">Age:</label>
+<input id="age" required name="age" placeholder="Enter Age" min="1" max="100">
+
+<label>Select Gender:</label>
+
+<label for="female">Female</label>
+<input id="female" type="radio" name="gender" value="female">
+
+<label for="male">Male</label>
+<input id="male" type="radio" name="gender" value="male">
+</fieldset>
+
+<fieldset>
+    <legend>Test information</legend>
+
+    <label for="test">Select Test</label>
+    <select id="test" name="test">
+        <option>Blood Test</option>
+        <option>Sugar Test</option>
+        <option>Urine Test</option>
+    </select>
+       <label for="sample">Home Sample Collection</label>
+<input id="sample" type="checkbox" name="sample" value="yes">
+</fieldset>
+<fieldset>
+    <legend>Preferred Date & Time:</legend>
+    <label for="date">Date:</label>
+    <input id="date" type="date" name="date">
+
+     <label for="time">Time:</label>
+    <input id="time" type="time" name="time">   
+</fieldset>
+
+   </form> 
+</body>
+</html>
