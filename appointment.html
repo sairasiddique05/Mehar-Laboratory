@@ -14,16 +14,16 @@
     <fieldset>
     <legend> Personal information</legend>
 <label for="name">Patient Name:</label>
-<input id="name" required name="name" placeholder="Enter Patient name here">
+<input id="name" type="text" name="name" placeholder="Enter Patient name here">
    
 <label for="email">Patient Name:</label>
-<input id="email" required name="email" placeholder="Enter email here">
+<input id="email" type="email" required name="email" placeholder="Enter email here">
 
 <label for="contact">Phone Number:</label>
-<input id="contact" required name="number" placeholder="Enter phone number here">
+<input id="contact" type="tel" required name="number" placeholder="Enter phone number here">
 
 <label for="age">Age:</label>
-<input id="age" required name="age" placeholder="Enter Age" min="1" max="100">
+<input id="age" type="number" required name="age" placeholder="Enter Age" min="1" max="100">
 
 <label>Select Gender:</label>
 
@@ -52,8 +52,12 @@
     <input id="date" type="date" name="date">
 
      <label for="time">Time:</label>
-    <input id="time" type="time" name="time">   
+    <input id="time" type="time" name="time">
+    
+    <label for="prescription">Upload Prescription</label>
+    <input type="file" id="prescription" name="prescription">
 </fieldset>
+
 
    </form> 
 </body>
